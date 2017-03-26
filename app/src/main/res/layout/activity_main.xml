@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<!--    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="100dp"
+        android:layout_height="200dp" />-->
+
+    <me.kaelaela.verticalviewpager.VerticalViewPager
+        android:id="@+id/pager"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:radius="10dp"
+        android:layout_width="fill_parent"
+        app:fillColor="@color/colorPrimary"
+        app:pageColor="@color/colorAccent"
+        />
+
+
+
+    <!--
+        <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/titles"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        app:fillColor="@color/white"
+        app:pageColor="@color/spt_grey"
+        android:layout_above="@+id/btn_login" />
+    -->
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/pager"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--/>-->
+
+</LinearLayout>

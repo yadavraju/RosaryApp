@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dm.rosary.newrosary.RosaryActivity">
+
+    <item android:id="@+id/action_cg_background"
+        android:title="Change Background"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_cg_diamond"
+        android:title="Block of Diamond"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item android:id="@+id/action_cg_quartz"
+        android:title="Block of Quartz"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_cg_clay"
+        android:title="Stained Clay"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+
+</menu>
